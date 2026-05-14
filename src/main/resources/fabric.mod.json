@@ -2,9 +2,11 @@
   "schemaVersion": 1,
   "id": "saferbed",
   "version": "${version}",
-  "name": "saferbed",
+  "name": "Safer Bed",
   "description": "With this mod you can inspect player data",
-  "authors": [],
+  "authors": [
+    "TrRuki"
+  ],
   "contact": {},
   "license": "LGPL-3.0",
   "icon": "assets/saferbed/icon.png",
