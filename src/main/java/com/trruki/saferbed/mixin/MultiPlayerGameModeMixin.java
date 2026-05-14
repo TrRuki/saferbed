@@ -35,7 +35,7 @@ public class MultiPlayerGameModeMixin {
         ResourceKey<Level> dimension = localPlayer.level().dimension();
         if (dimension == Level.NETHER || dimension == Level.END) {
             cir.setReturnValue(InteractionResult.FAIL);
-            Minecraft.getInstance().gui.setOverlayMessage(Component.literal("§cSafer Bed: prevented from dying §8| §7Toggle key: §f" + SaferbedClient.toggleKey.getTranslatedKeyMessage().getString()), false);
+            Minecraft.getInstance().gui.setOverlayMessage(Component.literal("§cSafer Bed: prevented from exploding §8| §7Toggle key: §f" + SaferbedClient.toggleKey.getTranslatedKeyMessage().getString()), false);
         }
     }
 }
