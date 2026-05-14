@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "saferbed",
+  "version": "${version}",
+  "name": "saferbed",
+  "description": "With this mod you can inspect player data",
+  "authors": [],
+  "contact": {},
+  "license": "LGPL-3.0",
+  "icon": "assets/saferbed/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.trruki.saferbed.client.SaferbedClient"
+    ],
+    "main": [
+      "com.trruki.saferbed.Saferbed"
+    ]
+  },
+  "mixins": [
+    "saferbed.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
