@@ -23,8 +23,8 @@
     "saferbed.mixins.json"
   ],
   "depends": {
-    "fabricloader": ">=${loader_version}",
+    "fabricloader": ">=0.17.0",
     "fabric-api": "*",
-    "minecraft": "${minecraft_version}"
+    "minecraft": ">=26.1 <=26.4"
   }
 }
